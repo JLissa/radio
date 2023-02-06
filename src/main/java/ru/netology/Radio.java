@@ -29,6 +29,7 @@ public class Radio {
         numberCurrentRadioStation = newNumberCurrentRadioStation;
     }
 
+
     public void nextRadioStation() {
         if (numberCurrentRadioStation < maxNumberRadioStation) {
             numberCurrentRadioStation = numberCurrentRadioStation + 1;
